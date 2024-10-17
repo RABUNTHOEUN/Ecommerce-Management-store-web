@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   server: {
     host: '0.0.0.0',  // Bind to all network interfaces (enable external access)
-    port: 5000,        // Port number
+    port: 8100,        // Port number
   },
   resolve: {
     alias: {
