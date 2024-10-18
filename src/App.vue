@@ -1,4 +1,43 @@
-<script setup>
+<template>
+  <div>
+    <Header />
+    <HeroSection />
+    <FeatureCards />
+    <Introduction />
+  </div>
+</template>
+
+<script>
+import Header from './components/Header.vue'
+import HeroSection from './components/HeroSection.vue'
+import FeatureCards from './components/FeatureCards.vue'
+import Introduction from './components/Introduction.vue'
+
+export default {
+  components: {
+    Header,
+    HeroSection,
+    FeatureCards,
+    Introduction
+  }
+}
+</script>
+
+<style>
+/* Global styles if necessary */
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -44,4 +83,4 @@ header {
     flex-wrap: wrap;
   }
 }
-</style>
+</style> -->
