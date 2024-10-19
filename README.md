@@ -28,3 +28,22 @@ npm run dev
 npm run build
 ```
 "# Ecommerce-Management-store-web" 
+
+
+npm install -g @vue/cli  //First, let's create a new Vue.js project. If you don’t already have Vue CLI installed, install it by running
+vue create agriculture-website
+cd agriculture-website
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+
+npm install remixicon --save
+
+
+
+{
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  }
+}

@@ -1,6 +1,6 @@
-import './assets/main.css'
+// src/main.js
+import { createApp } from 'vue';
+import App from './App.vue';
+import './assets/main.css'; // Add this line
 
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+createApp(App).mount('#app');
