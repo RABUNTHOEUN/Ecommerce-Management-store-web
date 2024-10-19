@@ -57,7 +57,7 @@
           <div class="flex justify-between items-center py-4">
             <!-- Navigation Links -->
             <nav class="space-x-4">
-              <a href="#" class="text-gray-700 hover:text-green-500">Home</a>
+              <router-link to="/" class="hover:text-gray-800">Home</router-link>
               <a href="#" class="text-gray-700 hover:text-green-500">About</a>
               <a href="#" class="text-gray-700 hover:text-green-500">Services</a>
               <a href="#" class="text-gray-700 hover:text-green-500">Projects</a>
