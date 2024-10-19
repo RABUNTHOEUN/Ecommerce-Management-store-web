@@ -9,6 +9,8 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: './',  // or specify a different base path if needed
+
   server: {
     host: '0.0.0.0',  // Bind to all network interfaces (enable external access)
     port: 8100,        // Port number
@@ -19,3 +21,4 @@ export default defineConfig({
     }
   },
 })
+

@@ -36,6 +36,7 @@ cd agriculture-website
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
+npm install vue-router
 
 
 npm install remixicon --save

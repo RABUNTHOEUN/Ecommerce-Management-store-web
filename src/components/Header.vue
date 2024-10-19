@@ -4,7 +4,9 @@
         <div class="sub-navbar-1">
           <div class="flex justify-between items-center py-4">
             <!-- Logo Section -->
-            <div class="text-3xl font-bold text-green-700 mr-11">Acom</div>
+            <div class="text-3xl font-bold text-green-700 mr-11">
+              <router-link to="/" class="hover:text-gray-300">Acom</router-link>
+            </div>
             
             <!-- Navigation Links -->
             <nav class="flex justify-center items-center space-x-4">

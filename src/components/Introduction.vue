@@ -9,13 +9,17 @@
   
         <!-- Content -->
         <div class="flex flex-col justify-center">
-          <h2 class="text-4xl font-bold mb-4">Agriculture & Organic Product Farm</h2>
+          <p class="text-green-600 font-bold text-2xl">Our Introductions</p>
+          <h2 class="text-5xl font-bold mb-4">Agriculture & Organic Product Farm</h2>
           <p class="mb-4">Acom is the largest global organic farm.</p>
+          <p>There are many variations of passages of lf</p>
           <ul class="list-disc list-inside mb-4">
             <li>Growing fruits & vegetables</li>
             <li>Tips for ripening your fruits</li>
           </ul>
-          <button class="bg-green-500 text-white px-6 py-2 rounded-full">Discover More</button>
+          <div class="bg-green-500 text-white px-6 py-2 rounded-full">
+            <router-link to="/agriculturedesc" class="hover:text-gray-800">Discover More</router-link>
+          </div>
         </div>
       </div>
     </section>
