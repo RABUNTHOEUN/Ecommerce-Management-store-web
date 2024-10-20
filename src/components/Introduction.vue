@@ -25,10 +25,10 @@
             </div>
           </div>
 
-          <ul class="list-disc list-inside mb-4">
-            <li>Growing fruits & vegetables</li>
-            <li>Tips for ripening your fruits</li>
-          </ul>
+          <div class="list-disc list-inside mb-4 flex flex-col justify-start">
+            <p class="flex items-center"><i class="ri-checkbox-circle-fill text-green-400 pr-1"></i>Growing fruits & vegetables</p>
+            <p class="flex items-center"><i class="ri-checkbox-circle-fill text-green-400 pr-1"></i>Tips for ripening your fruits</p>
+          </div>
 
           <div class="bg-green-500 text-white px-6 py-2 mx-auto rounded-full ml-0 ">
             <router-link to="/agriculturedesc" class="hover:text-gray-800">Discover More</router-link>

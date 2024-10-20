@@ -4,23 +4,26 @@
     <HeroSection />
     <FeatureCards />
     <Introduction />
+    <OurService />
   </div>
 </template>
 
-<script>
+<script setup>
 import Header from './components/Header.vue'
 import HeroSection from './components/HeroSection.vue'
 import FeatureCards from './components/FeatureCards.vue'
 import Introduction from './components/Introduction.vue'
+import OurService from './components/OurService.vue';
 
-export default {
-  components: {
-    Header,
-    HeroSection,
-    FeatureCards,
-    Introduction
-  }
-}
+// export default {
+//   components: {
+//     Header,
+//     HeroSection,
+//     FeatureCards,
+//     Introduction,
+//     OurService
+//   }
+// }
 </script>
 
 <style>
